@@ -6,4 +6,9 @@ Python script as an extension to predict biotransformation for multiple chemical
 The script is required to run from inside the cloned BioTransformer repository and needs an input file (SMILES.log in the given example) containing the chemicals in SMILES format (one chemical in each line without further signs).
 
 Model selection can be chosen in line 21 of the script. Models "cyp450", "ecbased", "phaseII", "hgut", "allHuman", "superbio", and "env" can be selected.
-Output file name should be adjusted in lines 33, and 38 (tplist.csv).
+Output file name should be adjusted in lines XX, and XX ("tplist.csv").
+
+Workflow:
+put the script biotrans_multiprompt.sh and the text file containing the SMILES (SMILES.log) into biotransformer directory (by default named biotransformer3.0jar).
+Then execute the script with
+./biotrans_multiprompt.sh
