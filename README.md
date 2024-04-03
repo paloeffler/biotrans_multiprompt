@@ -10,5 +10,6 @@ Output file name should be adjusted in lines XX, and XX ("tplist.csv").
 
 Workflow:
 put the script biotrans_multiprompt.sh and the text file containing the SMILES (SMILES.log) into biotransformer directory (by default named biotransformer3.0jar).
-Execute the script with '''./biotrans_multiprompt.sh'''
+Execute the script with 
+```./biotrans_multiprompt.sh``` 
 
